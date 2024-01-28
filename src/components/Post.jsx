@@ -12,31 +12,31 @@ export function Post(){
             <h1>Histórico Professional:</h1>
                 <div className={styles.professional}>
                     <div className={styles.period}>
-                        <p>OftalmoPE - Instituto de saúde do brasil LTDA</p>
+                        <h4>Oftalmo PE - Instituto de saúde do brasil LTDA</h4>
                         <p> <span>10/2021 - Atual</span></p>
                     </div>
                     <div className={styles.role}>
-                        <p>Analista de desenvolvimento de sistemas </p>
+                        <p> <span>Analista de desenvolvimento de sistemas </span> </p>
                         <p>Como Analista de Desenvolvimento de Sistemas, tive a responsabilidade de implementar com sucesso o sistema integrado SQL com o SUS (Sistema Único de Saúde) em todas as unidades. Além disso, desempenhei um papel crucial na implementação do setor de TI, coordenando a implantação da infraestrutura, o que incluiu a configuração e gerenciamento de servidores.
                         </p>
                  </div>
 
                  <div className={styles.period}>
-                        <p>IMIP Hospitalar /UPAE Prof. Antônio Simão dos Santos Figueira</p>
+                        <h4>IMIP Hospitalar /UPAE Prof. Antônio Simão dos Santos Figueira</h4>
                         <p> <span>03/2016 - 10/2021</span></p>
                     </div>
                     <div className={styles.role}>
-                        <p>Técnico em Informática  </p>
+                        <p> <span>Técnico em Informática </span> </p>
                         <p>Atuei como responsável técnico pela manutenção e operação de computadores, servidores e impressoras. Desempenhei um papel crucial no gerenciamento de contas de usuários, e-mails e toda a infraestrutura de telefonia, incluindo ramais. Durante esse período, concentrei-me em garantir o pleno funcionamento dos sistemas, proporcionando suporte técnico essencial para a equipe e otimizando a eficiência operacional.
                         </p>
                  </div>
 
                  <div className={styles.period}>
-                        <p>Doctor Finder: Apple Service Center</p>
+                        <h4>Doctor Finder: Apple Service Center</h4>
                         <p><span>05/2012 - 01/2014</span></p>
                     </div>
                     <div className={styles.role}>
-                        <p>HelpDesk/Auxiliar técnico em informático </p>
+                        <p> <span>HelpDesk/Auxiliar técnico em informático</span></p>
                         <p>Minhas responsabilidades incluíam atendimento técnico, manutenção de máquinas Macintosh e servidores. Durante esse período, concentrei-me em oferecer suporte técnico eficaz, garantindo o funcionamento contínuo dos sistemas e a satisfação dos usuários.
                         </p>
                  </div>
@@ -44,8 +44,8 @@ export function Post(){
             <h1>Trabalho voluntário:</h1>
             <div className={styles.professional}>
                     <div className={styles.period}>
-                        <p>10/2007 - 10/2007</p>
-                        <p>Associação Brasileira de A.B.I.J.C.D.S.U.D.</p>
+                        <h4>Associação Brasileira de A.B.I.J.C.D.S.U.D.</h4>
+                        <p> <span>10/2007 - Atual</span></p>
                     </div>
                     <div className={styles.role}>
                      

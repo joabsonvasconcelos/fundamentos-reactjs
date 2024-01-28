@@ -1,7 +1,7 @@
 
 import styles from './Sidebar.module.css';
 import { Avatar } from './Avatar';
-import {  GithubLogo, Globe, GlobeHemisphereWest, GraduationCap, LinkedinLogo, PaperPlaneTilt, Phone, Student } from 'phosphor-react';
+import {  GithubLogo, Globe, GlobeHemisphereWest, GraduationCap, InstagramLogo, LinkedinLogo, PaperPlaneTilt, Phone, Student, TwitterLogo } from 'phosphor-react';
 
 
 export function Sidebar() {
@@ -22,13 +22,15 @@ export function Sidebar() {
                 <h1>Contatos:</h1>
                     <p> <span><Phone /></span> 87 99925-6122</p>
                     <p> <span><PaperPlaneTilt /> </span> joabson.vasconcelos@icloud.com</p>
-                    <p> <span><Globe /> </span> joabson.com</p>
-                    <p> <span><LinkedinLogo /> </span> in</p>
-                    <p> <span><GithubLogo /> </span> Github</p>
+                    <a href="https://www.joabson.com/" target='_blank'><p> <span><Globe /> </span> joabson.com</p></a>
+                    <a href="https://www.linkedin.com/in/joabson/" target='_blank'><p> <span><LinkedinLogo /> </span> in/joabson</p></a>
+                    <a href="https://www.github.com/joabsonvasconcelos/" target='_blank'><p> <span><GithubLogo /> </span> /joabsonvasconcelos</p></a>
+                   
+                 
                     <br />
                 <h1>Formação Acadêmica:</h1>
                     <p> <span> Estácio - UNISEB - 5° Periodo</span> </p>
-                    <p> <span><GraduationCap /> </span>Analise e desenvolvimento de sistemas</p>
+                    <p> <span><GraduationCap /> </span>Análise e desenvolvimento de sistemas</p>
                     <br />
                     <p> <span>ETEC/SP - Centro Paula Souza</span> </p>
                     <p> <span><GraduationCap /> </span>Técnico em infomática - Programação</p>
@@ -47,7 +49,7 @@ export function Sidebar() {
 
 
                 <h1>Idiomas:</h1>
-                    <p> <span><GlobeHemisphereWest /> </span> Ingles técnico</p>
+                    <p> <span><GlobeHemisphereWest /> </span> Inglês técnico</p>
 
                 
 
