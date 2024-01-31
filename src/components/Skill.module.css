@@ -1,0 +1,48 @@
+* {
+    font-weight: 200;
+  
+  }
+  
+  .skill {
+      background: var(--gray-800);
+      border-radius: 8px;
+      padding: 0.5rem 2.5rem;
+    }
+  
+
+.skillCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; 
+    justify-content: center;
+   
+  }
+  
+  
+  .card {
+    border: 2px solid var(--main-color-300);  
+    text-align: center;
+    border-radius: 8px;
+    padding: .5rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    
+  }
+  
+  .skillCard h2{
+    font-size: 1rem;
+    background: var(--green-500);
+    margin-left: 0;
+    border-radius: 6px;
+    height: 50%;
+    text-align:justify;
+    align-content:end;
+    padding: 1rem;
+    font-weight: 600;
+    height: 100%;
+  
+    
+  
+  }

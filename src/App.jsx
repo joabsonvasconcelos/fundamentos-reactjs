@@ -1,6 +1,10 @@
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import { Post } from "./components/Post";
+import { About } from "./components/About";
+import { Skill } from "./components/Skill";
+
+ 
 
 import styles from './App.module.css';
 
@@ -14,7 +18,9 @@ export function App() {
       <div className={styles.wrapper}>
        <Sidebar />
         <main>
+          <About />
           <Post />
+          <Skill />
         </main>
 
       </div>
